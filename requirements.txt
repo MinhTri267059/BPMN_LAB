@@ -1,0 +1,14 @@
+# BPMN Workflow Visualization & Analytics Dashboard
+# Python Requirements
+
+# Core Database
+neo4j==6.1.0
+
+# Optional
+lxml>=4.9.0  # For XML parsing
+
+# Notes:
+# - tkinter is built-in with Python 3.11+
+# - Python 3.11+ required
+# threading (built-in)
+# time (built-in)

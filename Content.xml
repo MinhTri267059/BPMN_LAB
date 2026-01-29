@@ -1,0 +1,35 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="bp2_start" value="Start: Nhận Task ERP" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="120" width="80" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp2_task1" value="Task 1: Nghiên cứu Brief" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="160" y="130" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp2_task2" value="Task 2: Viết nội dung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="320" y="130" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp2_task3" value="Task 3: Tìm Visual Ref" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="480" y="130" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp2_task4" value="Task 4: Upload ERP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="640" y="130" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp2_gate1" value="Leader Duyệt?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="800" y="120" width="100" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp2_end" value="End: Content Ready" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+      <mxGeometry x="980" y="120" width="80" height="80" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="e2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="bp2_start" target="bp2_task1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="bp2_task1" target="bp2_task2"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="bp2_task2" target="bp2_task3"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="bp2_task3" target="bp2_task4"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="bp2_task4" target="bp2_gate1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2_yes" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" edge="1" parent="1" source="bp2_gate1" target="bp2_end"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2_no" value="Sửa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=1;" edge="1" parent="1" source="bp2_gate1" target="bp2_task2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="850" y="240"/><mxPoint x="380" y="240"/></Array></mxGeometry></mxCell>
+  </root>
+</mxGraphModel>

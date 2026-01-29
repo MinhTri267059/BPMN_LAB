@@ -1,0 +1,49 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="bp5_start" value="Khách hàng gửi Yêu cầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="120" width="100" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_acc1" value="Account: Chốt Brief (BP1)" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+      <mxGeometry x="180" y="120" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_con" value="Content: Viết &amp; Tìm ảnh (BP2)" style="rounded=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+      <mxGeometry x="340" y="120" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_med" value="Media: Design/Edit (BP3)" style="rounded=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+      <mxGeometry x="500" y="120" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_qc1" value="Account: QC &amp; Gửi Khách" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+      <mxGeometry x="660" y="120" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_gate1" value="Nội dung OK?" style="rhombus;fillColor=#f5f5f5;" vertex="1" parent="1">
+      <mxGeometry x="820" y="110" width="100" height="80" as="geometry"/>
+    </mxCell>
+    
+    <mxCell id="bp5_ads1" value="Ads: Lập Plan &amp; Ngân sách (BP4)" style="rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
+      <mxGeometry x="810" y="240" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_gate2" value="Khách chốt Tiền?" style="rhombus;fillColor=#f5f5f5;" vertex="1" parent="1">
+      <mxGeometry x="820" y="340" width="100" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_ads2" value="Ads: Chạy &amp; Báo cáo" style="rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
+      <mxGeometry x="660" y="350" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="bp5_end" value="End: Hoàn tất" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="500" y="350" width="100" height="60" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="l1" edge="1" source="bp5_start" target="bp5_acc1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l2" edge="1" source="bp5_acc1" target="bp5_con" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l3" edge="1" source="bp5_con" target="bp5_med" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l4" edge="1" source="bp5_med" target="bp5_qc1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l5" edge="1" source="bp5_qc1" target="bp5_gate1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l_no1" value="Sửa" edge="1" source="bp5_gate1" target="bp5_con" parent="1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="870" y="80"/><mxPoint x="400" y="80"/></Array></mxGeometry></mxCell>
+    <mxCell id="l_yes1" value="OK" edge="1" source="bp5_gate1" target="bp5_ads1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l6" edge="1" source="bp5_ads1" target="bp5_gate2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l_no2" value="Sửa Plan" edge="1" source="bp5_gate2" target="bp5_ads1" parent="1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="960" y="380"/><mxPoint x="960" y="270"/></Array></mxGeometry></mxCell>
+    <mxCell id="l_yes2" value="OK" edge="1" source="bp5_gate2" target="bp5_ads2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="l7" edge="1" source="bp5_ads2" target="bp5_end" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>
