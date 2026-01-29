@@ -1,0 +1,281 @@
+﻿[
+  {
+    "path": {
+      "start": {
+        "identity": 11,
+        "labels": [
+          "Element"
+        ],
+        "properties": {
+          "process_id": "content",
+          "name": "Start: Nhận Task ERP",
+          "element_id": "bp2_start",
+          "type": "Start"
+        },
+        "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:11"
+      },
+      "end": {
+        "identity": 17,
+        "labels": [
+          "Element"
+        ],
+        "properties": {
+          "process_id": "content",
+          "name": "End: Content Ready",
+          "element_id": "bp2_end",
+          "type": "End"
+        },
+        "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:17"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 11,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Start: Nhận Task ERP",
+              "element_id": "bp2_start",
+              "type": "Start"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:11"
+          },
+          "relationship": {
+            "identity": 25,
+            "start": 11,
+            "end": 12,
+            "type": "NEXT",
+            "properties": {
+              "process_id": "content",
+              "label": ""
+            },
+            "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:25",
+            "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:11",
+            "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:12"
+          },
+          "end": {
+            "identity": 12,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 1: Nghiên cứu Brief",
+              "element_id": "bp2_task1",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:12"
+          }
+        },
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 1: Nghiên cứu Brief",
+              "element_id": "bp2_task1",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:12"
+          },
+          "relationship": {
+            "identity": 26,
+            "start": 12,
+            "end": 13,
+            "type": "NEXT",
+            "properties": {
+              "process_id": "content",
+              "label": ""
+            },
+            "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:26",
+            "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:12",
+            "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:13"
+          },
+          "end": {
+            "identity": 13,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 2: Viết nội dung",
+              "element_id": "bp2_task2",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:13"
+          }
+        },
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 2: Viết nội dung",
+              "element_id": "bp2_task2",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:13"
+          },
+          "relationship": {
+            "identity": 27,
+            "start": 13,
+            "end": 14,
+            "type": "NEXT",
+            "properties": {
+              "process_id": "content",
+              "label": ""
+            },
+            "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:27",
+            "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:13",
+            "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:14"
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 3: Tìm Visual Ref",
+              "element_id": "bp2_task3",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:14"
+          }
+        },
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 3: Tìm Visual Ref",
+              "element_id": "bp2_task3",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:14"
+          },
+          "relationship": {
+            "identity": 28,
+            "start": 14,
+            "end": 15,
+            "type": "NEXT",
+            "properties": {
+              "process_id": "content",
+              "label": ""
+            },
+            "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:28",
+            "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:14",
+            "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:15"
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 4: Upload ERP",
+              "element_id": "bp2_task4",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:15"
+          }
+        },
+        {
+          "start": {
+            "identity": 15,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Task 4: Upload ERP",
+              "element_id": "bp2_task4",
+              "type": "Task"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:15"
+          },
+          "relationship": {
+            "identity": 29,
+            "start": 15,
+            "end": 16,
+            "type": "NEXT",
+            "properties": {
+              "process_id": "content",
+              "label": ""
+            },
+            "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:29",
+            "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:15",
+            "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:16"
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Leader Duyệt?",
+              "element_id": "bp2_gate1",
+              "type": "Gateway"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:16"
+          }
+        },
+        {
+          "start": {
+            "identity": 16,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "Leader Duyệt?",
+              "element_id": "bp2_gate1",
+              "type": "Gateway"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:16"
+          },
+          "relationship": {
+            "identity": 30,
+            "start": 16,
+            "end": 17,
+            "type": "NEXT",
+            "properties": {
+              "process_id": "content",
+              "label": "OK"
+            },
+            "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:30",
+            "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:16",
+            "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:17"
+          },
+          "end": {
+            "identity": 17,
+            "labels": [
+              "Element"
+            ],
+            "properties": {
+              "process_id": "content",
+              "name": "End: Content Ready",
+              "element_id": "bp2_end",
+              "type": "End"
+            },
+            "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:17"
+          }
+        }
+      ],
+      "length": 6.0
+    }
+  }
+]

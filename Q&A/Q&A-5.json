@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Ma_Quy_Trinh": "BP1",
+    "Ten_Quy_Trinh": "Account",
+    "Ten_Gateway": "Khách duyệt?"
+  },
+  {
+    "Ma_Quy_Trinh": "BP2",
+    "Ten_Quy_Trinh": "Content",
+    "Ten_Gateway": "Leader Duyệt?"
+  },
+  {
+    "Ma_Quy_Trinh": "BP3",
+    "Ten_Quy_Trinh": "Media",
+    "Ten_Gateway": "Feedback?"
+  },
+  {
+    "Ma_Quy_Trinh": "BP4",
+    "Ten_Quy_Trinh": "Ads",
+    "Ten_Gateway": "Khách chốt $$?"
+  },
+  {
+    "Ma_Quy_Trinh": "BP5",
+    "Ten_Quy_Trinh": "Team Marketing",
+    "Ten_Gateway": "Khách chốt Tiền?"
+  },
+  {
+    "Ma_Quy_Trinh": "BP5",
+    "Ten_Quy_Trinh": "Team Marketing",
+    "Ten_Gateway": "Nội dung OK?"
+  }
+]

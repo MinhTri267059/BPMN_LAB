@@ -1,0 +1,36 @@
+﻿[
+  {
+    "Quy_Trinh": "Account",
+    "Cac_Vi_Tri_Can_Co": [
+      "Account"
+    ]
+  },
+  {
+    "Quy_Trinh": "Content",
+    "Cac_Vi_Tri_Can_Co": [
+      "Content Writer"
+    ]
+  },
+  {
+    "Quy_Trinh": "Media",
+    "Cac_Vi_Tri_Can_Co": [
+      "Designer",
+      "Editor"
+    ]
+  },
+  {
+    "Quy_Trinh": "Ads",
+    "Cac_Vi_Tri_Can_Co": [
+      "Ads Specialist"
+    ]
+  },
+  {
+    "Quy_Trinh": "Team Marketing",
+    "Cac_Vi_Tri_Can_Co": [
+      "Account Dept",
+      "Content Dept",
+      "Media Dept",
+      "Ads Dept"
+    ]
+  }
+]

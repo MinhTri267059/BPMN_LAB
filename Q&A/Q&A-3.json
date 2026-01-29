@@ -1,0 +1,758 @@
+﻿[
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 71,
+      "start": 35,
+      "end": 45,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:71",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:45"
+    },
+    "e": {
+      "identity": 45,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "End: Hoàn tất",
+        "element_id": "bp5_end",
+        "type": "End"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:45"
+    },
+    "r2": null,
+    "next_e": null
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 70,
+      "start": 35,
+      "end": 44,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:70",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:44"
+    },
+    "e": {
+      "identity": 44,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Ads: Chạy & Báo cáo",
+        "element_id": "bp5_ads2",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:44"
+    },
+    "r2": {
+      "identity": 82,
+      "start": 44,
+      "end": 45,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": ""
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:82",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:44",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:45"
+    },
+    "next_e": {
+      "identity": 45,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "End: Hoàn tất",
+        "element_id": "bp5_end",
+        "type": "End"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:45"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 69,
+      "start": 35,
+      "end": 43,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:69",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43"
+    },
+    "e": {
+      "identity": 43,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Khách chốt Tiền?",
+        "element_id": "bp5_gate2",
+        "type": "Gateway"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43"
+    },
+    "r2": {
+      "identity": 81,
+      "start": 43,
+      "end": 44,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": "OK"
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:81",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:44"
+    },
+    "next_e": {
+      "identity": 44,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Ads: Chạy & Báo cáo",
+        "element_id": "bp5_ads2",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:44"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 69,
+      "start": 35,
+      "end": 43,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:69",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43"
+    },
+    "e": {
+      "identity": 43,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Khách chốt Tiền?",
+        "element_id": "bp5_gate2",
+        "type": "Gateway"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43"
+    },
+    "r2": {
+      "identity": 80,
+      "start": 43,
+      "end": 42,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": "Sửa Plan"
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:80",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:42"
+    },
+    "next_e": {
+      "identity": 42,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Ads: Lập Plan & Ngân sách (BP4)",
+        "element_id": "bp5_ads1",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:42"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 68,
+      "start": 35,
+      "end": 42,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:68",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:42"
+    },
+    "e": {
+      "identity": 42,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Ads: Lập Plan & Ngân sách (BP4)",
+        "element_id": "bp5_ads1",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:42"
+    },
+    "r2": {
+      "identity": 79,
+      "start": 42,
+      "end": 43,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": ""
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:79",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:42",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43"
+    },
+    "next_e": {
+      "identity": 43,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Khách chốt Tiền?",
+        "element_id": "bp5_gate2",
+        "type": "Gateway"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:43"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 67,
+      "start": 35,
+      "end": 41,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:67",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41"
+    },
+    "e": {
+      "identity": 41,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Nội dung OK?",
+        "element_id": "bp5_gate1",
+        "type": "Gateway"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41"
+    },
+    "r2": {
+      "identity": 78,
+      "start": 41,
+      "end": 42,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": "OK"
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:78",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:42"
+    },
+    "next_e": {
+      "identity": 42,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Ads: Lập Plan & Ngân sách (BP4)",
+        "element_id": "bp5_ads1",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:42"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 67,
+      "start": 35,
+      "end": 41,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:67",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41"
+    },
+    "e": {
+      "identity": 41,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Nội dung OK?",
+        "element_id": "bp5_gate1",
+        "type": "Gateway"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41"
+    },
+    "r2": {
+      "identity": 77,
+      "start": 41,
+      "end": 38,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": "Sửa"
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:77",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:38"
+    },
+    "next_e": {
+      "identity": 38,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Content: Viết & Tìm ảnh (BP2)",
+        "element_id": "bp5_con",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:38"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 66,
+      "start": 35,
+      "end": 40,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:66",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:40"
+    },
+    "e": {
+      "identity": 40,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Account: QC & Gửi Khách",
+        "element_id": "bp5_qc1",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:40"
+    },
+    "r2": {
+      "identity": 76,
+      "start": 40,
+      "end": 41,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": ""
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:76",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:40",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41"
+    },
+    "next_e": {
+      "identity": 41,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Nội dung OK?",
+        "element_id": "bp5_gate1",
+        "type": "Gateway"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:41"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 65,
+      "start": 35,
+      "end": 39,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:65",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:39"
+    },
+    "e": {
+      "identity": 39,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Media: Design/Edit (BP3)",
+        "element_id": "bp5_med",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:39"
+    },
+    "r2": {
+      "identity": 75,
+      "start": 39,
+      "end": 40,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": ""
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:75",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:39",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:40"
+    },
+    "next_e": {
+      "identity": 40,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Account: QC & Gửi Khách",
+        "element_id": "bp5_qc1",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:40"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 64,
+      "start": 35,
+      "end": 38,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:64",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:38"
+    },
+    "e": {
+      "identity": 38,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Content: Viết & Tìm ảnh (BP2)",
+        "element_id": "bp5_con",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:38"
+    },
+    "r2": {
+      "identity": 74,
+      "start": 38,
+      "end": 39,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": ""
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:74",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:38",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:39"
+    },
+    "next_e": {
+      "identity": 39,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Media: Design/Edit (BP3)",
+        "element_id": "bp5_med",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:39"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 63,
+      "start": 35,
+      "end": 37,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:63",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:37"
+    },
+    "e": {
+      "identity": 37,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Account: Chốt Brief (BP1)",
+        "element_id": "bp5_acc1",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:37"
+    },
+    "r2": {
+      "identity": 73,
+      "start": 37,
+      "end": 38,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": ""
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:73",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:37",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:38"
+    },
+    "next_e": {
+      "identity": 38,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Content: Viết & Tìm ảnh (BP2)",
+        "element_id": "bp5_con",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:38"
+    }
+  },
+  {
+    "p": {
+      "identity": 35,
+      "labels": [
+        "Process"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Team Marketing",
+        "id": "BP5"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35"
+    },
+    "r1": {
+      "identity": 62,
+      "start": 35,
+      "end": 36,
+      "type": "HAS_STEP",
+      "properties": {
+
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:62",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:35",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:36"
+    },
+    "e": {
+      "identity": 36,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Khách hàng gửi Yêu cầu",
+        "element_id": "bp5_start",
+        "type": "Event"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:36"
+    },
+    "r2": {
+      "identity": 72,
+      "start": 36,
+      "end": 37,
+      "type": "NEXT",
+      "properties": {
+        "process_id": "team_marketing",
+        "label": ""
+      },
+      "elementId": "5:4db182ca-fcad-4e76-9d49-dcbc348b12e0:72",
+      "startNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:36",
+      "endNodeElementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:37"
+    },
+    "next_e": {
+      "identity": 37,
+      "labels": [
+        "Element"
+      ],
+      "properties": {
+        "process_id": "team_marketing",
+        "name": "Account: Chốt Brief (BP1)",
+        "element_id": "bp5_acc1",
+        "type": "Task"
+      },
+      "elementId": "4:4db182ca-fcad-4e76-9d49-dcbc348b12e0:37"
+    }
+  }
+]

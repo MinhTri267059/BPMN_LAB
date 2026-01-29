@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Quy_Trinh": "Team Marketing",
+    "Tong_Chi_Phi": "$1000"
+  },
+  {
+    "Quy_Trinh": "Media",
+    "Tong_Chi_Phi": "$240"
+  },
+  {
+    "Quy_Trinh": "Content",
+    "Tong_Chi_Phi": "$180"
+  },
+  {
+    "Quy_Trinh": "Account",
+    "Tong_Chi_Phi": "$150"
+  },
+  {
+    "Quy_Trinh": "Ads",
+    "Tong_Chi_Phi": "$80"
+  }
+]
